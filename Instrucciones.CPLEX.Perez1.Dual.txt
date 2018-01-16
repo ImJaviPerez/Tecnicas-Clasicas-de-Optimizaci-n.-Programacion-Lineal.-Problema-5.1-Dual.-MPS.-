@@ -1,0 +1,10 @@
+enter Perez1.Dual
+minimize 27 y1 + 60 y2 +60 y3
+st 3 y1 + 5 y2 + 6 y3 <= 4
+y1 + 5 y2 + 4 y3 <= 5
+bounds
+-inf <= y1
+y1 <= 0
+y2 free
+end
+write Perez1.Dual.mps
